@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juego de HistoTrivias</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="bienvenido">
+      <h1>Bienvenido al Juego de HistoTrivias</h1>
+      <img
+        src="https://cdn.glitch.global/00d6babf-638c-40d1-8938-57fb0d0d1f9e/history.jpg?v=1710995836515/history.jpg"
+        alt="imagen de inicio"
+        width="200px"
+      />
+      <p>
+        Donde pondrás a prueba tus conocimientos sobre los acontecimientos mas
+        importantes de la historia.
+      </p>
+      <label for="nombre-jugador"
+        >Antes de comenzar ingresa tu nombre:
+        <input type="text" id="nombre-jugador" />
+      </label>
+      <button onclick="comenzar()">Jugar</button>
+    </div>
+    <div id="pantalla" style="display: none">
+      <h2 id="saludo"></h2>
+
+      <div id="caja"></div>
+      <button onclick="respuesta()">Responder</button>
+      <button onclick="reiniciar()">Volver a Jugar</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
