@@ -18,4 +18,4 @@ Al finalizar, te informaremos con cuantas preguntas acertaste o fallaste, pero q
 
 No siendo mas, ¡que comience el juego, la diversion y el aprendizaje en Histotrivias!
 ¡Buena suerte!
-[A JUGAR](https://histotrivia.glitch.me/)
+[JUGAR](https://histotrivia.glitch.me/)
